@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Accessibility | Wiper-Bergeron Lab</title>
+<meta name="description" content="How the Wiper-Bergeron Lab website is built for accessibility and how to ask for another format.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=IBM+Plex+Mono:wght@500;600&amp;display=swap">
+<link rel="stylesheet" href="assets/lab.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="frame">
+    <a class="brand" href="./"><svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true" focusable="false"><path class="bm-f" d="M3 7 L15 3 L17 15 L7 18 Z"/><path class="bm-f" d="M19 4 L31 8 L28 18 L19 16 Z"/><path class="bm-f" d="M4 22 L16 18 L18 30 L7 31 Z"/><path class="bm-f" d="M20 19 L29 21 L28 30 L20 29 Z"/><ellipse class="bm-s" cx="18" cy="17" rx="3" ry="1.8"/></svg><span class="brand-name">Wiper-Bergeron Lab<span>uOttawa · Faculty of Medicine</span></span><span class="sr-only">, home</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="research-and-society.html">Research and society</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="https://www.wiper-bergeronlab.com/access-lab/" class="ext">ACCESS Lab<span class="sr-only"> (separate site)</span></a></li>
+        <li><a href="join-us.html">Join us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="page-intro">
+  <div class="frame">
+    <p class="scalebar" aria-hidden="true">50 µm</p>
+    <h1>Accessibility</h1>
+    <p class="lead">We want everyone to be able to find, read and use the information on this site.</p>
+  </div>
+</div>
+
+<section class="section" aria-labelledby="std-title">
+  <div class="frame split">
+    <div class="stack">
+      <h2 id="std-title">Our standard</h2>
+      <p>This website aims to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA, beyond the WCAG 2.0 Level AA requirement under Ontario's Accessibility for Ontarians with Disabilities Act (AODA).</p>
+      <ul class="checks">
+        <li>Works with screen readers and keyboards, with a visible focus outline</li>
+        <li>Text and colours meet AA contrast in light and dark mode</li>
+        <li>Text enlarges to 200% and pages reflow on small screens</li>
+        <li>No moving content, time limits or autoplaying media</li>
+        <li>Illustrations have text descriptions</li>
+      </ul>
+    </div>
+    <div class="stack">
+      <h2 id="formats-title">Ask for another format</h2>
+      <p>We can provide information from this site in another format, including large print, plain text or French. If something on the site does not work for you, please tell us the page and what happened.</p>
+      <div class="contact-box">
+        <p class="email"><a href="mailto:Nadine.WiperBergeron@uottawa.ca?subject=Website%20accessibility">Nadine.WiperBergeron@uottawa.ca</a></p>
+        <p class="note">Subject line: "Website accessibility"</p>
+      </div>
+      <p class="note">Last reviewed October 7, 2026.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="frame">
+    <div>
+      <h2>Wiper-Bergeron Lab</h2>
+      <address>
+        Department of Cellular and Molecular Medicine<br>
+        Faculty of Medicine, University of Ottawa<br>
+        Roger Guindon Hall, Room 3239<br>
+        451 Smyth Road, Ottawa, ON K1H 8M5
+      </address>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <p><a href="mailto:Nadine.WiperBergeron@uottawa.ca">Nadine.WiperBergeron@uottawa.ca</a></p>
+      <p style="margin-top:0.5rem"><a href="https://maps.google.com/?cid=5245158781146631547">Roger Guindon Hall on Google Maps</a></p>
+    </div>
+    <nav aria-label="Footer">
+      <h2>More</h2>
+      <ul>
+        <li><a href="https://www.wiper-bergeronlab.com/access-lab/">ACCESS Lab</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Wiper-Bergeron+N&sort=date">Publications on PubMed</a></li>
+        <li><a href="https://twitter.com/nwbergeron">@nwbergeron on X (Twitter)</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <div class="frame">
+      <p lang="fr">Pour recevoir cette information en français, écrivez-nous à <a href="mailto:Nadine.WiperBergeron@uottawa.ca">Nadine.WiperBergeron@uottawa.ca</a>.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

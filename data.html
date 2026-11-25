@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Data and resources | Wiper-Bergeron Lab</title>
+<meta name="description" content="MyInCAT and other open datasets from the Wiper-Bergeron Lab: integrated single-cell RNA-sequencing data from skeletal muscle and tumours in cancer cachexia.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=IBM+Plex+Mono:wght@500;600&amp;display=swap">
+<link rel="stylesheet" href="assets/lab.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="frame">
+    <a class="brand" href="./"><svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true" focusable="false"><path class="bm-f" d="M3 7 L15 3 L17 15 L7 18 Z"/><path class="bm-f" d="M19 4 L31 8 L28 18 L19 16 Z"/><path class="bm-f" d="M4 22 L16 18 L18 30 L7 31 Z"/><path class="bm-f" d="M20 19 L29 21 L28 30 L20 29 Z"/><ellipse class="bm-s" cx="18" cy="17" rx="3" ry="1.8"/></svg><span class="brand-name">Wiper-Bergeron Lab<span>uOttawa · Faculty of Medicine</span></span><span class="sr-only">, home</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="research-and-society.html">Research and society</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="data.html" aria-current="page">Data</a></li>
+        <li><a href="https://www.wiper-bergeronlab.com/access-lab/" class="ext">ACCESS Lab<span class="sr-only"> (separate site)</span></a></li>
+        <li><a href="join-us.html">Join us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="page-intro">
+  <div class="frame">
+    <p class="scalebar" aria-hidden="true">50 µm</p>
+    <h1>Data and resources</h1>
+    <p class="lead">We share our integrated datasets and analysis tools openly, so other researchers can explore them, test new ideas and build on our work.</p>
+  </div>
+</div>
+
+<section class="section" aria-labelledby="myincat-title">
+  <div class="frame resource">
+    <div class="stack" style="gap:1.25rem">
+      <p class="label">Web resource</p>
+      <h2 id="myincat-title" class="resource-name">MyInCAT</h2>
+      <p class="resource-sub">Myogenic single-cell Integration of Cachexia Transcriptomics data</p>
+      <p>MyInCAT brings together single-cell and single-nucleus RNA-sequencing data from the skeletal muscle and tumours of mice with cancer cachexia, along with muscle and tumours from people with pancreatic cancer. Explore the integrated data in your browser to generate hypotheses, check your own findings and make publication-ready plots.</p>
+      <div class="actions">
+        <a class="btn" href="https://myincat.org">Open MyInCAT</a>
+        <a class="btn btn-quiet" href="https://doi.org/10.5281/zenodo.19208746">Download the data</a>
+      </div>
+      <h3 style="margin-top:0.75rem">What you can do</h3>
+      <ul class="checks">
+        <li>Visualize gene expression across cell types, subclusters and conditions</li>
+        <li>Run differential gene expression and pathway analyses</li>
+        <li>Explore predicted cell communication with CellChat, from tumour to muscle and within muscle</li>
+        <li>Export publication-ready plots</li>
+      </ul>
+    </div>
+    <dl class="glance" aria-label="MyInCAT at a glance">
+      <div><dt>Mouse muscle</dt><dd><span class="num">130,996</span> cells and nuclei from 6 datasets</dd></div>
+      <div><dt>Mouse tumours</dt><dd><span class="num">13,371</span> cells from 4 datasets</dd></div>
+      <div><dt>Human pancreatic cancer</dt><dd><span class="num">48,167</span> cells: 13,757 from muscle and 34,410 from tumours</dd></div>
+      <div><dt>Tumour models</dt><dd>LLC (lung), B16F10 (melanoma), C26 and MC38 (colon), and KPP, KPC and KIC (pancreatic)</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section section-tint" aria-labelledby="code-title">
+  <div class="frame split">
+    <div class="stack">
+      <h2 id="code-title">Data and code</h2>
+      <p>Everything behind MyInCAT is openly available. MyInCAT also lists every source dataset, with its accession number and sample details.</p>
+    </div>
+    <ul class="links-list">
+      <li><a class="what" href="https://doi.org/10.5281/zenodo.19208746">Integrated datasets on Zenodo</a><span class="note">Seurat objects for the integrated mouse muscle and tumour datasets, and the integrated and split CellChat objects</span><span class="where">doi:10.5281/zenodo.19208746</span></li>
+      <li><a class="what" href="https://github.com/musclesci/MyInCAT">Analysis code on GitHub</a><span class="where">github.com/musclesci/MyInCAT</span></li>
+      <li><a class="what" href="https://github.com/IsaacLafond/MyInCAT">Web resource code on GitHub</a><span class="where">github.com/IsaacLafond/MyInCAT</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="paper-title">
+  <div class="frame split">
+    <div class="stack">
+      <p class="label">Associated publication</p>
+      <p class="status">In press</p>
+      <h2 id="paper-title" style="font-size:var(--step-2)">Tumour signals propagate muscle inflammatory signalling and indirectly target myofibres in cancer cachexia</h2>
+      <p class="note">Brown A, Lafond I, De Lisio M, Wiper-Bergeron N. <i>J Cachexia Sarcopenia Muscle</i>. 2026;e70441. <a href="https://doi.org/10.1002/jcsm.70441">doi:10.1002/jcsm.70441</a></p>
+    </div>
+    <div class="stack">
+      <h3>What we found</h3>
+      <p>Across several mouse cancer models and in people with pancreatic cancer, tumours signal mainly to immune and other non-muscle cells in muscle, through TNF, CCL2/CCL12, CXCL12 and OSM. Those cells then amplify inflammatory signalling within the muscle.</p>
+      <p>Muscle fibres themselves receive little direct signal from tumours. Changes in their gene expression are better explained by the loss of signals for muscle maintenance, extracellular matrix and nerve-related support.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint" aria-labelledby="cite-title">
+  <div class="frame stack">
+    <h2 id="cite-title">How to cite</h2>
+    <p class="prose">If you use the integrated dataset, MyInCAT or its code, please cite:</p>
+    <div class="citation">
+      <p id="cite-text">Brown A, Lafond I, De Lisio M, Wiper-Bergeron N. Tumour signals propagate muscle inflammatory signalling and indirectly target myofibres in cancer cachexia. J Cachexia Sarcopenia Muscle. 2026;e70441. doi:10.1002/jcsm.70441</p>
+      <button type="button" class="copy-btn" id="copy-cite">Copy citation</button>
+      <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+    </div>
+    <p class="prose">Please also cite the individual datasets and software packages used in your analyses. They are listed under References on <a href="https://myincat.org">the MyInCAT home page</a>.</p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="related-title">
+  <div class="frame split">
+    <div class="stack">
+      <p class="label">Related dataset</p>
+      <h2 id="related-title" style="font-size:var(--step-2)">Muscle across the course of cancer cachexia</h2>
+      <p>Single-cell RNA-sequencing of skeletal muscle from male mice at 2, 2.5 and 3.5 weeks after Lewis lung carcinoma (LLC) tumour implantation, with matched controls. It is one of the datasets integrated in MyInCAT.</p>
+    </div>
+    <ul class="links-list">
+      <li><a class="what" href="https://github.com/musclesci/CachexiaMuscleTimecourse">Data and code on GitHub</a><span class="where">github.com/musclesci/CachexiaMuscleTimecourse</span></li>
+      <li><a class="what" href="https://doi.org/10.1002/jcsm.70260">Single-cell RNA-sequencing reveals cachectic satellite cell population in muscle of male mice with cancer cachexia</a><span class="note">Brown A, et al. <i>J Cachexia Sarcopenia Muscle</i>. 2026;17:e70260.</span><span class="where">doi:10.1002/jcsm.70260</span></li>
+    </ul>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var btn = document.getElementById("copy-cite");
+    var status = document.getElementById("copy-status");
+    var text = document.getElementById("cite-text");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      var value = text.textContent.trim();
+      function selectText() {
+        var range = document.createRange();
+        range.selectNodeContents(text);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        status.textContent = "Citation selected. Press Ctrl+C or Command+C to copy it.";
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(value).then(function () {
+          status.textContent = "Citation copied.";
+        }, selectText);
+      } else {
+        selectText();
+      }
+    });
+  })();
+</script>
+</main>
+<footer class="site-footer">
+  <div class="frame">
+    <div>
+      <h2>Wiper-Bergeron Lab</h2>
+      <address>
+        Department of Cellular and Molecular Medicine<br>
+        Faculty of Medicine, University of Ottawa<br>
+        Roger Guindon Hall, Room 3239<br>
+        451 Smyth Road, Ottawa, ON K1H 8M5
+      </address>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <p><a href="mailto:Nadine.WiperBergeron@uottawa.ca">Nadine.WiperBergeron@uottawa.ca</a></p>
+      <p style="margin-top:0.5rem"><a href="https://maps.google.com/?cid=5245158781146631547">Roger Guindon Hall on Google Maps</a></p>
+    </div>
+    <nav aria-label="Footer">
+      <h2>More</h2>
+      <ul>
+        <li><a href="https://www.wiper-bergeronlab.com/access-lab/">ACCESS Lab</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Wiper-Bergeron+N&sort=date">Publications on PubMed</a></li>
+        <li><a href="https://twitter.com/nwbergeron">@nwbergeron on X (Twitter)</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <div class="frame">
+      <p lang="fr">Pour recevoir cette information en français, écrivez-nous à <a href="mailto:Nadine.WiperBergeron@uottawa.ca">Nadine.WiperBergeron@uottawa.ca</a>.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

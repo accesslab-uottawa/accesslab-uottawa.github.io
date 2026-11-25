@@ -260,3 +260,26 @@ address { font-style: normal; }
   .site-nav, .skip-link, .actions { display: none !important; }
   body { background: #FFFFFF; color: #000000; }
 }
+
+/* ---------- data and resources ---------- */
+.resource { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 2rem 3.5rem; align-items: start; }
+@media (max-width: 56rem) { .resource { grid-template-columns: minmax(0, 1fr); } }
+.resource-name { font-size: clamp(2.25rem, 1.6rem + 2.6vw, 3.5rem); letter-spacing: -0.02em; }
+.resource-sub { font-family: var(--font-mono); font-size: 0.9375rem; color: var(--muted); }
+.glance { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem; display: flex; flex-direction: column; gap: 1.1rem; }
+.glance div { display: flex; flex-direction: column; gap: 0.15rem; padding-bottom: 1.1rem; border-bottom: 1px solid var(--line); }
+.glance div:last-child { border-bottom: 0; padding-bottom: 0; }
+.glance dt { font-family: var(--font-mono); font-size: 0.8125rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.glance dd { margin: 0; }
+.glance .num { font-family: var(--font-display); font-weight: 700; font-size: var(--step-2); line-height: 1.1; font-variant-numeric: tabular-nums; color: var(--ink); }
+.links-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.9rem; }
+.links-list li { display: flex; flex-direction: column; gap: 0.1rem; }
+.links-list .what { font-weight: 700; }
+.links-list .where { font-family: var(--font-mono); font-size: 0.875rem; overflow-wrap: anywhere; }
+.status { display: inline-flex; align-self: flex-start; align-items: center; gap: 0.5rem; padding: 0.3rem 0.75rem; border-radius: 999px; border: 1px solid var(--line); background: var(--chip-bg); font-family: var(--font-mono); font-size: 0.875rem; color: var(--ink); }
+.status::before { content: ""; width: 0.6rem; height: 0.6rem; border-radius: 999px; background: var(--sa-sat); border: 1px solid var(--sa-mark); }
+.citation { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.25rem 1.5rem; display: flex; flex-direction: column; gap: 1rem; max-width: 52rem; }
+.citation p { font-size: var(--step--1); line-height: 1.6; }
+.copy-btn { align-self: flex-start; min-height: 44px; padding: 0.5rem 1rem; border-radius: 999px; border: 2px solid var(--ink); background: transparent; color: var(--ink); font: inherit; font-weight: 700; font-size: var(--step--1); cursor: pointer; }
+.copy-btn:hover { background: var(--tint); }
+.copy-status { font-size: var(--step--1); color: var(--muted); min-height: 1.5em; }
